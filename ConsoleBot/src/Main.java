@@ -2,6 +2,7 @@ import java.util.*;
 
 public class Main
 {
+	// ver 0.1.1
 	public static void main(String[] arg){
 		
 		// вечный цикл
@@ -61,6 +62,10 @@ public class Main
 					System.out.println();
 					System.out.println("Привет!");
 					break;
+				case("здравствуй"):
+					System.out.println();
+					System.out.println("Здравствуй!");
+					break;
 				case("на каком языке ты написан"):
 					System.out.println();
 					System.out.println("На JAVA!");
@@ -69,13 +74,9 @@ public class Main
 					System.out.println();
 					System.out.println("я только недавно");
 					break;
-				case("как тебя завут"):
+				case("как тебя зовут"):
 					System.out.println();
-					System.out.println("BotConsole");
-					break;
-				case("здарова"):
-					System.out.println();
-					System.out.println("Здравствуй!");
+					System.out.println("ConsoleBot");
 					break;
 				default:
 					System.out.println("такой команды нет!");
