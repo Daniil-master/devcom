@@ -1,8 +1,8 @@
-﻿ver: 1.1.2
+﻿ver: 1.2.2
 
  Здравствуйте.
    Вы зашли на репозиторий в котором находятся(проекты):
 
    Java Program:
-    Console(IDE: AIDE)
+    ConsoleBot(IDE: AIDE)
      и другие...
