@@ -2,13 +2,13 @@ import java.util.*;
 
 public class Main
 {
-	// ver 0.1.1.1
+	// ver 0.1.1 build 2
 	public static void main(String[] arg){
 		
-		// вечный цикл
+		// eternal for
 		for(int a=0;a<=15;a++){
 			a--;
-			System.out.println("Ввод:=>");
+			System.out.println("Enter:=>");
 			System.out.println();
 			Scanner i=new Scanner (System.in);
 			String  v=i.nextLine();
@@ -17,13 +17,13 @@ public class Main
 			switch(v){
 				case("help"):
 					System.out.println();
-					System.out.println("help - показать все команды ");
-					System.out.println("random - рандомное целое число ");
-					System.out.println("hi или привет - приветствие");
-					break;
-				case("random"):
+					System.out.println("help - show all commands");
+					System.out.println("random - random integer ");
+					System.out.println("hi or привет - hello message");
+					break;				
+case("random"):
 					System.out.println();
-					System.out.println("Введите до скольки: ");
+					System.out.println("Enter how many: ");
 					Scanner l=new Scanner(System.in);
 					String h=l.nextLine();
 					int f=Integer.parseInt(h);
@@ -58,32 +58,32 @@ public class Main
 				    System.out.println();
 					System.out.println("Hi!");
 				    break;
-				case("привет"):
+				case("good morning"):
 					System.out.println();
-					System.out.println("Привет!");
+					System.out.println("Good morning!");
 					break;
-				case("здравствуй"):
+				case("hello"):
 					System.out.println();
-					System.out.println("Здравствуй!");
+					System.out.println("Hello!");
 					break;
-				case("на каком языке ты написан"):
+				case("what language you are wditten in"):
 					System.out.println();
-					System.out.println("На JAVA!");
+					System.out.println("On JAVA!");
 					break;
-				case("сколько тебе лет"):
+				case("how old are you"):
 					System.out.println();
-					System.out.println("я только недавно");
+					System.out.println("just recently");
 					break;
-				case("как тебя зовут"):
+				case("what is your name"):
 					System.out.println();
 					System.out.println("ConsoleBot");
 					break;
 				default:
-					System.out.println("такой команды нет!");
-			// конец проверки
+					System.out.println("command not found!");
+			// the end of checking
 				}
 
-      // конец цикла
+      // the end of for
 		}
 
 
