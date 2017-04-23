@@ -1,6 +1,29 @@
-				case("random"):
+import java.util.*;
+
+public class Main
+{
+	// ver 0.1.1 build 2
+	public static void main(String[] arg){
+		
+		// eternal for
+		for(int a=0;a<=15;a++){
+			a--;
+			System.out.println("Enter:=>");
+			System.out.println();
+			Scanner i=new Scanner (System.in);
+			String  v=i.nextLine();
+
+          // проверка введённого значения
+			switch(v){
+				case("help"):
 					System.out.println();
-					System.out.println("Введите до скольки: ");
+					System.out.println("help - show all commands");
+					System.out.println("random - random integer ");
+					System.out.println("hi or привет - hello message");
+					break;				
+case("random"):
+					System.out.println();
+					System.out.println("Enter how many: ");
 					Scanner l=new Scanner(System.in);
 					String h=l.nextLine();
 					int f=Integer.parseInt(h);
@@ -47,9 +70,9 @@
 					System.out.println();
 					System.out.println("On JAVA!");
 					break;
-				case("сколько тебе лет"):
+				case("how old are you"):
 					System.out.println();
-					System.out.println("я только недавно");
+					System.out.println("just recently");
 					break;
 				case("what is your name"):
 					System.out.println();
