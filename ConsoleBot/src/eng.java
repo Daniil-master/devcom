@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main
+public class eng
 {
 	// ver 0.1.1 build 2
 	public static void main(String[] arg){
@@ -21,7 +21,7 @@ public class Main
 					System.out.println("random - random integer ");
 					System.out.println("hi or привет - hello message");
 					break;				
-case("random"):
+                 case("random"):
 					System.out.println();
 					System.out.println("Enter how many: ");
 					Scanner l=new Scanner(System.in);
