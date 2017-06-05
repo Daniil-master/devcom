@@ -1,8 +1,10 @@
-﻿ver: 1.2.3
+﻿ver: 1.2.5
 
- Здравствуйте.
-   Вы зашли на репозиторий в котором находятся(проекты):
+ Здравствуйте.Вы зашли на репозиторий в котором находятся(проекты) DaniilK
+ 
+Проекты:
 
    Java Program:
-    ConsoleBot(IDE: AIDE- IDE for Android Java C++)
+    ConsoleBot(IDE by Java SE)
+
      
